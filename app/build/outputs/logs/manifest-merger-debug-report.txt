@@ -1,0 +1,72 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.0.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:8:9-41
+	android:allowBackup
+		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:7:9-45
+	android:theme
+		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:9:9-40
+activity#works.com.hellovision2.VisionActivity
+ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:10:9-18:20
+	android:label
+		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:12:13-45
+	android:name
+		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:11:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:16:27-74
+uses-permission#android.permission.CAMERA
+ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:20:5-64
+	android:name
+		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:20:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:21:5-23:44
+	android:protectionLevel
+		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:23:9-41
+	android:permissionGroup
+		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:22:9-77
+	android:name
+		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:21:22-66
+uses-sdk
+INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.0.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml:20:5-43
+MERGED from [HelloVision2.libraries:opencv:unspecified] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/HelloVision2.libraries/opencv/unspecified/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:2:1-24:12 reason: com.androidplot has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:2:1-24:12 reason: com.androidplot has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:2:1-24:12 reason: com.androidplot requested WRITE_EXTERNAL_STORAGE

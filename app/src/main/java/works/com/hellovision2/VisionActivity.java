@@ -1,7 +1,6 @@
 package works.com.hellovision2;
 
-import java.util.Vector;
-
+import org.apache.commons.*;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
@@ -24,7 +23,9 @@ import org.opencv.imgproc.Imgproc;
 
 
 
+import java.util.Calendar;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class VisionActivity extends ActionBarActivity implements CameraBridgeViewBase.CvCameraViewListener2
 {
@@ -42,9 +43,7 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
     float sum=0;
     float halfWaySum = 0;
     Float ave = new Float(0);
-    ArrayList<Double> bufferValues;
-
-    ArrayList<Float> testArray;
+    ArrayList<Double> bufferValues = new ArrayList<>();
 
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         @Override
@@ -138,12 +137,61 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
         return mean;
     }
 
+    public Double sumArrayList(ArrayList<Double> array){
+
+        Double sum = new Double(0);
+        for (Double wef : array) {
+            sum = sum + wef;
+        }
+        return sum;
+    }
+
+    public ArrayList<Double> deMeanList(ArrayList<Double> array) {
+        Double sumArrayList = sumArrayList(array);
+        Double arrayMean = sumArrayList / array.size();
+        ArrayList deMeanedArray = new ArrayList();
+
+        for (int i = 0; i < array.size(); i++) {
+            Double currentValue = array.get(i);
+            Double deMeanedValue = currentValue - arrayMean;
+
+            deMeanedArray.add(deMeanedValue);
+
+        }
+
+        return deMeanedArray;
+    }
+
+    public Double findMedian(ArrayList<Double> a) {
+
+        Collections.sort(a);
+        if (a.size() == 0){
+            return 0.0;
+        }
+
+        else if (a.size() % 2 == 1){
+            return a.get(a.size()/2);
+        }
+
+        else {
+            return (a.get(a.size()/2) + a.get(a.size()/2 - 1))/2.0;
+        }
+    }
+    public ArrayList<Double> lowPassFilter(ArrayList<Double> deArray){
+        ArrayList<Double> filteredArray = new ArrayList<>();
+
+        for (int index = 0; index < deArray.size(); index++) {
+            if(index > 5) {
+                Double medianValue = 
+            }
+
+        }
+    }
     @Override
     public Mat onCameraFrame(CameraBridgeViewBase.CvCameraViewFrame inputFrame) {
         Mat currentFrame = inputFrame.rgba();
 
-
-
+        long startTime = System.currentTimeMillis();
 
         //CANNY Edge Detection
         Imgproc.cvtColor(currentFrame, currentFrame, Imgproc.COLOR_RGBA2RGB);
@@ -153,11 +201,15 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
 
         double valueMean = HSVMeans.val[2];
 
-//        bufferValues.add(valueMean);
+        bufferValues.add(valueMean);
+
+
 
         String valueMeanString = Double.toString(valueMean);
+        if (bufferValues.size() > 50) {
 
-        Log.d("means", valueMeanString);
+        }
+
 
         return currentFrame;
     }
