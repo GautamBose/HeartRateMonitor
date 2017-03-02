@@ -18,6 +18,7 @@ ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.2.1/AndroidManifest.xml:11:5-12:19
 MERGED from [com.android.support:support-v4:23.0.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:8:9-41
@@ -69,6 +70,7 @@ MERGED from [HelloVision2.libraries:opencv:unspecified] /Users/Gautam/Downloads/
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.2.1/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-v4:23.0.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml

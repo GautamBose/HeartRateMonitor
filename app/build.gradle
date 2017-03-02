@@ -33,6 +33,8 @@ dependencies {
     //compile 'com.android.support:recyclerview-v7:21.0.3'
     compile(name:'androidplot-core-0.6.2-SNAPSHOT', ext:'aar')
     compile 'com.google.android.gms:play-services-appindexing:8.4.0'
+    compile 'com.jjoe64:graphview:4.2.1'
+
 }
 
 

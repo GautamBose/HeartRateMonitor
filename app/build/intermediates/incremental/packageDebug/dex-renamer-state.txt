@@ -1,4 +1,4 @@
-#Thu Mar 02 05:17:43 EST 2017
+#Thu Mar 02 07:45:41 EST 2017
 base.0=/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_71a8965c7507832126e0c284a86c98133be72fe1
 renamed.1=classes.dex
 renamed.0=classes2.dex

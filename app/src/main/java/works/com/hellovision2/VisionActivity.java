@@ -28,6 +28,22 @@ import org.opencv.core.Core;
 import org.opencv.core.Mat;
 import org.opencv.core.Scalar;
 import org.opencv.imgproc.Imgproc;
+import java.util.concurrent.TimeUnit;
+
+
+
+
+import java.util.Random;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+import com.jjoe64.graphview.GraphView;
+import com.jjoe64.graphview.Viewport;
+import com.jjoe64.graphview.series.DataPoint;
+import com.jjoe64.graphview.series.DataPointInterface;
+import com.jjoe64.graphview.series.LineGraphSeries;
+
 
 
 
@@ -43,6 +59,7 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
     TextView rgbVal;
     float lastTouchY = 0;
     int cannyThreshold = 50;
+    long startTime = 0;
 
     ArrayList<Float> greenValues;
     int bufferCounter = 0;
@@ -51,6 +68,8 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
     float halfWaySum = 0;
     Float ave = new Float(0);
     ArrayList<Double> bufferValues = new ArrayList<>();
+    private LineGraphSeries<DataPoint> m2series;
+    private int lastX = 0;
 
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         @Override
@@ -80,6 +99,8 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
         Log.d(TAG, "called onCreate");
         super.onCreate(savedInstanceState);
 
+
+
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
         setContentView(R.layout.activity_vision);
         mOpenCvCameraView = (Tutorial3View) findViewById(R.id.HelloOpenCvView);
@@ -92,6 +113,15 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+        GraphView graph = (GraphView) findViewById(R.id.graph);
+        LineGraphSeries<DataPoint> m2series = new LineGraphSeries<>();
+        graph.addSeries(m2series);
+        Viewport viewport = graph.getViewport();
+        viewport.setYAxisBoundsManual(true);
+        viewport.setMinY(0);
+        viewport.setMaxY(10);
+        viewport.setScrollable(true);
+
     }
 
     @Override
@@ -191,8 +221,8 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
         ArrayList<Double> filteredArray = new ArrayList<>();
 
         for (int index = 0; index < deArray.size(); index++) {
-            if (index > 1) {
-                ArrayList<Double> subListed = new ArrayList<Double>(deArray.subList(index - 1, index));
+            if (index > 5) {
+                ArrayList<Double> subListed = new ArrayList<Double>(deArray.subList(index - 5, index));
                 Double medianValue = findMedian(subListed);
                 filteredArray.add(medianValue);
 
@@ -219,7 +249,7 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
                 }
             }
         }
-        return beats / 2;
+        return beats;
 
     }
 
@@ -227,7 +257,6 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
     public Mat onCameraFrame(CameraBridgeViewBase.CvCameraViewFrame inputFrame) {
         Mat currentFrame = inputFrame.rgba();
 
-//        long startTime = System.currentTimeMillis();
 
         //CANNY Edge Detection
         Imgproc.cvtColor(currentFrame, currentFrame, Imgproc.COLOR_RGBA2RGB);
@@ -235,34 +264,59 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
 
         Scalar HSVMeans = Core.mean(currentFrame);
 
-        double valueMean = HSVMeans.val[2];
+        Double valueMean = HSVMeans.val[2];
+
 
         bufferValues.add(valueMean);
+//        m2series.appendData(new DataPoint(lastX++, 10), true, 100);
 
-
-        String valueMeanString = Double.toString(valueMean);
-        if (bufferValues.size() == 100) {
+//        String valueMeanString = Double.toString(valueMean);
+        if (bufferValues.size() % 50 == 0) {
             int currentBeats = getBeats(bufferValues);
 
-//            long stopTime = System.currentTimeMillis();
-//            long timeDifference = startTime - stopTime;
+            if(startTime != 0) {
+                long timeDifference = System.nanoTime() - startTime;
 
-            String beatsString = Integer.toString(currentBeats);
+                double seconds = (double) timeDifference / 1000000000.0;
+                double minutes = (double) seconds / 60.0;
+
+                double bpm = currentBeats / minutes;
+
+//                String timeElapsed = Double.toString(seconds);
+
+//                String beatsString = Integer.toString(currentBeats);
 //            String bufferValString = android.text.TextUtils.join(", ", bufferValues);
 //            String bufferValSize = Integer.toString(bufferValues.size());
 //            Log.d("wewef", bufferValSize);
 //            Log.d("wewef", bufferValString);
-//            Log.d("wewef", beatsString);
+//                Log.d("wewef", beatsString);
+//                Log.d("wewef", timeElapsed);
+                TextView wefView = (TextView) findViewById(R.id.bpm);
+                String bpmString = Double.toString(bpm);
+                setText(wefView, bpmString);
 
-            final TextView beatsView = (TextView) findViewById(R.id.rgbVal);
-            beatsView.setText(beatsString);
-            bufferValues.clear();
+            }
+
+//            for(int remover = 0; remover < 5; remover++){
+//                bufferValues.remove(remover);
+//            }
+            startTime = System.nanoTime();
+
+
 
 
         }
 
 
         return currentFrame;
+    }
+    private void setText(final TextView text,final String value){
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                text.setText(value);
+            }
+        });
     }
 
     @Override

@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="999ac19b2c8d3712e0c5c7851e5b4b32b99384c5">
+        sha1="6a2b85b02f8f1e20f9e155fe115658ac89101d92">
         <dex dex="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_71a8965c7507832126e0c284a86c98133be72fe1/classes.dex" />
     </item>
     <item
@@ -18,6 +18,15 @@
         revision="21.1.2"
         sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
         <dex dex="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_2a217bc9aa791df1db2875aa81d6918dcdd75eed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jjoe64-graphview-4.2.1_dfe8776fa08a221473f767452d0a972d2c001aed/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -79,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="2fe7df80fa96e6bb0d4dd95b83d831ff03d883d9">
+        sha1="0deb68dc51706ee81b77523d2725595fabcc4b10">
         <dex dex="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_64170c7b40231256853fb7087fed6938c874c5b7/classes.dex" />
     </item>
     <item
