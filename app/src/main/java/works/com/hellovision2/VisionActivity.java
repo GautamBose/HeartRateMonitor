@@ -61,6 +61,13 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
     int cannyThreshold = 50;
     long startTime = 0;
 
+//    private final Handler mHandler = new Handler();
+    private Runnable mTimer1;
+    private Runnable mTimer2;
+    private LineGraphSeries<DataPoint> mSeries1;
+
+    private double graph2LastXValue = 5d;
+
     ArrayList<Float> greenValues;
     int bufferCounter = 0;
     int bufferSize = 100;
@@ -69,7 +76,8 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
     Float ave = new Float(0);
     ArrayList<Double> bufferValues = new ArrayList<>();
     private LineGraphSeries<DataPoint> m2series;
-    private int lastX = 0;
+    public int lastX = 0;
+    boolean isCapturing = false;
 
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         @Override
@@ -114,13 +122,17 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
         GraphView graph = (GraphView) findViewById(R.id.graph);
-        LineGraphSeries<DataPoint> m2series = new LineGraphSeries<>();
-        graph.addSeries(m2series);
+        mSeries1 = new LineGraphSeries<>();
+        graph.addSeries(mSeries1);
+
         Viewport viewport = graph.getViewport();
-        viewport.setYAxisBoundsManual(true);
-        viewport.setMinY(0);
-        viewport.setMaxY(10);
         viewport.setScrollable(true);
+        graph.getViewport().setXAxisBoundsManual(true);
+        graph.getViewport().setMinX(0);
+        graph.getViewport().setMaxX(40);
+
+        startTime = System.nanoTime();
+
 
     }
 
@@ -155,8 +167,10 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
 
         if (item.toString() == "Flash On") {
             mOpenCvCameraView.setFlashOn();
+            isCapturing = true;
         } else if (item.toString() == "Flash Off") {
             mOpenCvCameraView.setFlashOff();
+            isCapturing = false;
         }
         return true;
     }
@@ -221,8 +235,8 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
         ArrayList<Double> filteredArray = new ArrayList<>();
 
         for (int index = 0; index < deArray.size(); index++) {
-            if (index > 5) {
-                ArrayList<Double> subListed = new ArrayList<Double>(deArray.subList(index - 5, index));
+            if (index > 10) {
+                ArrayList<Double> subListed = new ArrayList<Double>(deArray.subList(index - 10, index));
                 Double medianValue = findMedian(subListed);
                 filteredArray.add(medianValue);
 
@@ -249,7 +263,7 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
                 }
             }
         }
-        return beats;
+        return beats * 2;
 
     }
 
@@ -265,16 +279,17 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
         Scalar HSVMeans = Core.mean(currentFrame);
 
         Double valueMean = HSVMeans.val[2];
-
-
         bufferValues.add(valueMean);
-//        m2series.appendData(new DataPoint(lastX++, 10), true, 100);
+        mSeries1.appendData(new DataPoint(lastX, valueMean), true, 100);
+        lastX++;
+
+        if(isCapturing == true){
 
 //        String valueMeanString = Double.toString(valueMean);
-        if (bufferValues.size() % 50 == 0) {
+        if (bufferValues.size() == 100) {
             int currentBeats = getBeats(bufferValues);
 
-            if(startTime != 0) {
+            if (startTime != 0) {
                 long timeDifference = System.nanoTime() - startTime;
 
                 double seconds = (double) timeDifference / 1000000000.0;
@@ -282,27 +297,36 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
 
                 double bpm = currentBeats / minutes;
 
-//                String timeElapsed = Double.toString(seconds);
-
-//                String beatsString = Integer.toString(currentBeats);
+                String timeElapsed = Double.toString(seconds);
+//
+                String beatsString = Integer.toString(currentBeats);
 //            String bufferValString = android.text.TextUtils.join(", ", bufferValues);
-//            String bufferValSize = Integer.toString(bufferValues.size());
-//            Log.d("wewef", bufferValSize);
+                String bufferValSize = Integer.toString(bufferValues.size());
+                Log.d("wewef", bufferValSize);
 //            Log.d("wewef", bufferValString);
-//                Log.d("wewef", beatsString);
-//                Log.d("wewef", timeElapsed);
+                Log.d("wewef", beatsString);
+                Log.d("wewef", timeElapsed);
                 TextView wefView = (TextView) findViewById(R.id.bpm);
                 String bpmString = Double.toString(bpm);
                 setText(wefView, bpmString);
+                startTime = System.nanoTime();
 
             }
+        }
 
-//            for(int remover = 0; remover < 5; remover++){
-//                bufferValues.remove(remover);
-//            }
-            startTime = System.nanoTime();
+            if (bufferValues.size() > 100) {
+                Log.d("test", "wef");
+                ArrayList<Double> tempBuffer = new ArrayList<Double>();
+                for(int iterator = 50; iterator < bufferValues.size(); iterator++){
+                    tempBuffer.add(bufferValues.get(iterator));
 
 
+                }
+                bufferValues = tempBuffer;
+            }
+
+//            bufferValues.clear();
+//            startTime = System.nanoTime();
 
 
         }
