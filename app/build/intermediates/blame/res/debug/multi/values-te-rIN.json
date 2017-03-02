@@ -6,9 +6,9 @@
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
-                    "startOffset": 55,
+                    "startOffset": 105,
                     "endColumn": 113,
-                    "endOffset": 164
+                    "endOffset": 214
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -25,9 +25,9 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 169,
+                    "startOffset": 219,
                     "endColumn": 107,
-                    "endOffset": 272
+                    "endOffset": 322
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -44,9 +44,9 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 277,
+                    "startOffset": 327,
                     "endColumn": 122,
-                    "endOffset": 395
+                    "endOffset": 445
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -63,9 +63,9 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 400,
+                    "startOffset": 450,
                     "endColumn": 108,
-                    "endOffset": 504
+                    "endOffset": 554
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -82,9 +82,9 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 509,
+                    "startOffset": 559,
                     "endColumn": 110,
-                    "endOffset": 615
+                    "endOffset": 665
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -101,9 +101,9 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 620,
+                    "startOffset": 670,
                     "endColumn": 89,
-                    "endOffset": 705
+                    "endOffset": 755
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -120,9 +120,9 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 710,
+                    "startOffset": 760,
                     "endColumn": 104,
-                    "endOffset": 810
+                    "endOffset": 860
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -139,9 +139,9 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 815,
+                    "startOffset": 865,
                     "endColumn": 124,
-                    "endOffset": 935
+                    "endOffset": 985
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -158,9 +158,9 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 940,
+                    "startOffset": 990,
                     "endColumn": 112,
-                    "endOffset": 1048
+                    "endOffset": 1098
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -177,9 +177,9 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1053,
+                    "startOffset": 1103,
                     "endColumn": 107,
-                    "endOffset": 1156
+                    "endOffset": 1206
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -196,9 +196,9 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1161,
+                    "startOffset": 1211,
                     "endColumn": 99,
-                    "endOffset": 1256
+                    "endOffset": 1306
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -215,9 +215,9 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1261,
+                    "startOffset": 1311,
                     "endColumn": 110,
-                    "endOffset": 1367
+                    "endOffset": 1417
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -234,9 +234,9 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1372,
+                    "startOffset": 1422,
                     "endColumn": 101,
-                    "endOffset": 1469
+                    "endOffset": 1519
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -253,9 +253,9 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1474,
+                    "startOffset": 1524,
                     "endColumn": 116,
-                    "endOffset": 1586
+                    "endOffset": 1636
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -272,9 +272,9 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1591,
+                    "startOffset": 1641,
                     "endColumn": 126,
-                    "endOffset": 1713
+                    "endOffset": 1763
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -291,9 +291,9 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1718,
+                    "startOffset": 1768,
                     "endColumn": 100,
-                    "endOffset": 1814
+                    "endOffset": 1864
                 },
                 "from": {
                     "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-te-rIN/values.xml",
@@ -303,6 +303,557 @@
                         "startOffset": 1943,
                         "endColumn": 100,
                         "endOffset": 2039
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1869,
+                    "endColumn": 261,
+                    "endOffset": 2126
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 3433,
+                        "endColumn": 265,
+                        "endOffset": 3694
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2131,
+                    "endColumn": 130,
+                    "endOffset": 2257
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1300,
+                        "endColumn": 130,
+                        "endOffset": 1426
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2262,
+                    "endColumn": 185,
+                    "endOffset": 2443
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1110,
+                        "endColumn": 189,
+                        "endOffset": 1295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2448,
+                    "endColumn": 131,
+                    "endOffset": 2575
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 978,
+                        "endColumn": 131,
+                        "endOffset": 1105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2580,
+                    "endColumn": 127,
+                    "endOffset": 2703
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 850,
+                        "endColumn": 127,
+                        "endOffset": 973
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2708,
+                    "endColumn": 200,
+                    "endOffset": 2904
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 435,
+                        "endColumn": 204,
+                        "endOffset": 635
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2909,
+                    "endColumn": 205,
+                    "endOffset": 3110
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 640,
+                        "endColumn": 209,
+                        "endOffset": 845
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 3115,
+                    "endColumn": 126,
+                    "endOffset": 3237
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 308,
+                        "endColumn": 126,
+                        "endOffset": 430
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 3242,
+                    "endColumn": 169,
+                    "endOffset": 3407
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 2704,
+                        "endColumn": 169,
+                        "endOffset": 2869
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 3412,
+                    "endColumn": 117,
+                    "endOffset": 3525
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2586,
+                        "endColumn": 117,
+                        "endOffset": 2699
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 3530,
+                    "endColumn": 162,
+                    "endOffset": 3688
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 2423,
+                        "endColumn": 162,
+                        "endOffset": 2581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 3693,
+                    "endColumn": 131,
+                    "endOffset": 3820
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2291,
+                        "endColumn": 131,
+                        "endOffset": 2418
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3825,
+                    "endColumn": 137,
+                    "endOffset": 3958
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 137,
+                        "endOffset": 303
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3963,
+                    "endColumn": 174,
+                    "endOffset": 4133
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 4139,
+                        "endColumn": 174,
+                        "endOffset": 4309
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 4138,
+                    "endColumn": 129,
+                    "endOffset": 4263
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 4009,
+                        "endColumn": 129,
+                        "endOffset": 4134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 4268,
+                    "endColumn": 183,
+                    "endOffset": 4447
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 3825,
+                        "endColumn": 183,
+                        "endOffset": 4004
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 4452,
+                    "endColumn": 125,
+                    "endOffset": 4573
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 3699,
+                        "endColumn": 125,
+                        "endOffset": 3820
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 4578,
+                    "endColumn": 226,
+                    "endOffset": 4800
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/res/values-te-rIN/common_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 230,
+                        "endOffset": 396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 4805,
+                    "endColumn": 230,
+                    "endOffset": 5031
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2995,
+                        "endColumn": 234,
+                        "endOffset": 3225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 5036,
+                    "endColumn": 120,
+                    "endOffset": 5152
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2874,
+                        "endColumn": 120,
+                        "endOffset": 2990
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 5157,
+                    "endColumn": 109,
+                    "endOffset": 5262
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 3230,
+                        "endColumn": 109,
+                        "endOffset": 3335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 5267,
+                    "endColumn": 183,
+                    "endOffset": 5446
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1561,
+                        "endColumn": 187,
+                        "endOffset": 1744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 5451,
+                    "endColumn": 129,
+                    "endOffset": 5576
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1431,
+                        "endColumn": 129,
+                        "endOffset": 1556
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 5581,
+                    "endColumn": 209,
+                    "endOffset": 5786
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 2077,
+                        "endColumn": 213,
+                        "endOffset": 2286
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 5791,
+                    "endColumn": 138,
+                    "endOffset": 5925
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1938,
+                        "endColumn": 138,
+                        "endOffset": 2072
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 5930,
+                    "endColumn": 188,
+                    "endOffset": 6114
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1749,
+                        "endColumn": 188,
+                        "endOffset": 1933
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 6119,
+                    "endColumn": 92,
+                    "endOffset": 6207
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 3340,
+                        "endColumn": 92,
+                        "endOffset": 3428
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 6212,
+                    "endColumn": 97,
+                    "endOffset": 6305
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 4314,
+                        "endColumn": 97,
+                        "endOffset": 4407
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 6310,
+                    "endColumn": 111,
+                    "endOffset": 6417
+                },
+                "from": {
+                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values-te-rIN/base_strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 4412,
+                        "endColumn": 111,
+                        "endOffset": 4519
                     }
                 }
             }

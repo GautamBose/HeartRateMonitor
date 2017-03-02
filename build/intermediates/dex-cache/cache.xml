@@ -12,12 +12,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Gautam/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jar="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.0.0_b25e3126957172f559dc536a570f83942ffe9f03/classes.dex" />
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_2a217bc9aa791df1db2875aa81d6918dcdd75eed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_5f9e7d98330d2ce49c54c1e38a24de8b1070e45f/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -30,12 +39,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jar="/Users/Gautam/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.0.0_ddad1de7fbbb6921aa59e7c94749166e29efded8/classes.dex" />
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.0_f13191746a7c98c3104dfcb795ba999f0a2161de/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -48,12 +57,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jar="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.0.0_5feb3e2790f376eecd9995014f5909edb7213650/classes.dex" />
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_710ea4f70f855ea88655a5abbce71fcf6483c93f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.0.0_2eccc5b837a2371a49bfc5f65491a7c12629fa07/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -61,8 +79,17 @@
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="3e625432f10d5b94edded5756c97ffe76bf524a2">
+        sha1="2fe7df80fa96e6bb0d4dd95b83d831ff03d883d9">
         <dex dex="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_64170c7b40231256853fb7087fed6938c874c5b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_f23e1cd2fe3f6505be0376cd2128ab0128c1fe9b/classes.dex" />
     </item>
 
 </items>

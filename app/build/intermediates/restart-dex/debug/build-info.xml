@@ -5,47 +5,40 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="28453493939410"
+    timestamp="37626762427417"
     token="8555191459979723587"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="300" />
+        duration="219" />
     <task
         name="instant-run-dex"
-        duration="504" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="50" />
+        duration="38" />
     <task
         name="verifier"
-        duration="7" />
+        duration="0" />
 
     <artifact
-        location="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="10779795911230"
+        timestamp="35128091800696"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/Gautam/Downloads/HelloVision2/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="28258252610488"
+        timestamp="37626762427417"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex"
             type="DEX" />
-    </build>
-    <build
-        timestamp="28453493939410"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
