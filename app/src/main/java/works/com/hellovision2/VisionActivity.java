@@ -279,58 +279,25 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
 
         if (isFlashOn == true) {
             bufferValues.add(valueMean);
-            mSeries1.appendData(new DataPoint(lastX++, valueMean), true, 100);
-
-//        String valueMeanString = Double.toString(valueMean);
-            if (bufferValues.size() % 100 == 0) {
-                int currentBeats = getBeats(bufferValues);
-
-                if (startTime != 0) {
-                    long timeDifference = System.nanoTime() - startTime;
-
-                    double seconds = (double) timeDifference / 1000000000.0;
-                    double minutes = (double) seconds / 60.0;
-
-                    double bpm = currentBeats / minutes;
-
-                    bpmAverageList.add(bpm);
-                    float currBPM = calculateMean(bpmAverageList);
-
-                    if(bpmAverageList.size() > 10){
-                        bpmAverageList.remove(0);
-                    }
-
-//                String timeElapsed = Double.toString(seconds);
-
-//                String beatsString = Integer.toString(currentBeats);
-//            String bufferValString = android.text.TextUtils.join(", ", bufferValues);
-//            String bufferValSize = Integer.toString(bufferValues.size());
-//            Log.d("wewef", bufferValSize);
-//            Log.d("wewef", bufferValString);
-//                Log.d("wewef", beatsString);
-//                Log.d("wewef", timeElapsed);
-                    TextView wefView = (TextView) findViewById(R.id.bpm);
-                    String bpmString = Float.toString(currBPM);
-                    setText(wefView, bpmString);
-
-                }
-
-//            for(int remover = 0; remover < 5; remover++){
-//                bufferValues.remove(remover);
-//            }
-                ArrayList<Double> tempBuffer = new ArrayList<Double>();
-                for (int iterator = 50; iterator < bufferValues.size(); iterator++) {
-                    tempBuffer.add(bufferValues.get(iterator));
-
-
-                }
-                bufferValues = tempBuffer;
-
-                startTime = System.nanoTime();
+            if (bufferValues.size() == 300) {
+                DoubleFFT_1D fftDoer = new DoubleFFT_1D(bufferValues.size());
+                double[] fftValues = new double[bufferValues.size() * 2];
+                Double [] bufferArray = new Double[bufferValues.size()];
+                bufferValues.toArray(bufferArray);
+                System.arraycopy(bufferArray, 0, fftValues, 0, bufferArray.length);
+                fftDoer.realForwardFull(fftValues);
+                bufferValues.clear();
 
 
             }
-        }
+
+//            mSeries1.appendData(new DataPoint(lastX++, valueMean), false, 30);
+
+
+
+
+            }
+
 
 
         return currentFrame;
