@@ -1,7 +1,7 @@
-#Thu Mar 02 13:27:29 EST 2017
-base.0=/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_71a8965c7507832126e0c284a86c98133be72fe1
+#Thu Mar 09 15:31:21 EST 2017
+base.0=/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8036d46fc50fc02e165f3d409f522137ce4e9824
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_64170c7b40231256853fb7087fed6938c874c5b7/classes.dex
-base.1=/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_64170c7b40231256853fb7087fed6938c874c5b7
-file.0=/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_71a8965c7507832126e0c284a86c98133be72fe1/classes.dex
+file.1=/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9fec3a94602ffa5bee3df0b7f429d4b5e0c92f18/classes.dex
+base.1=/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9fec3a94602ffa5bee3df0b7f429d4b5e0c92f18
+file.0=/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8036d46fc50fc02e165f3d409f522137ce4e9824/classes.dex

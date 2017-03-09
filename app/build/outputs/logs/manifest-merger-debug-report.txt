@@ -1,86 +1,86 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:3:5-37
-		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:5:5-23:19
-MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
-MERGED from [com.jjoe64:graphview:4.2.1] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.2.1/AndroidManifest.xml:11:5-12:19
-MERGED from [com.android.support:support-v4:23.0.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/AndroidManifest.xml:22:5-20
+ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:5:5-23:19
+MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/Gautam/.android/build-cache/75b191e887336e617a094152bb1a1c98226638df/output/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/Gautam/.android/build-cache/894b6a9b7c5fd43b05c9e76093af9e0dffe45191/output/AndroidManifest.xml:20:5-24:19
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/Gautam/.android/build-cache/b54bce6658bfe83d41cc8f2c0866156372f3382b/output/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:support-v4:23.0.0] /Users/Gautam/.android/build-cache/5fdd9cc86ecc917ea1900a6fc5c3a79bba5b65d3/output/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:8:9-41
 	android:allowBackup
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:7:9-45
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:7:9-45
 	android:theme
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:9:9-40
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:9:9-40
 activity#works.com.hellovision2.VisionActivity
-ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:10:9-18:20
+ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:10:9-18:20
 	android:label
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:12:13-45
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:12:13-45
 	android:name
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:11:13-43
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:11:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:16:27-74
 meta-data#com.google.android.gms.version
-ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:20:9-22:69
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
+ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:20:9-22:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/Gautam/.android/build-cache/894b6a9b7c5fd43b05c9e76093af9e0dffe45191/output/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:22:13-66
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:22:13-66
 	android:name
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:21:13-58
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:21:13-58
 uses-permission#android.permission.CAMERA
-ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:24:5-64
+ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:24:5-64
 	android:name
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:24:22-62
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:24:22-62
 uses-permission#android.permission.FLASHLIGHT
-ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:25:5-27:44
+ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:25:5-27:44
 	android:protectionLevel
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:27:9-41
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:27:9-41
 	android:permissionGroup
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:26:9-77
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:26:9-77
 	android:name
-		ADDED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:25:22-66
+		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:25:22-66
 uses-sdk
-INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/AndroidManifest.xml:20:5-43
-MERGED from [HelloVision2.libraries:opencv:unspecified] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/HelloVision2.libraries/opencv/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
-MERGED from [com.jjoe64:graphview:4.2.1] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.2.1/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:23.0.0] /Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/AndroidManifest.xml:20:5-43
+INJECTED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/AndroidManifest.xml:20:5-43
+MERGED from [HeartRateMonitor-master.libraries:opencv:unspecified] /Users/Gautam/Downloads/HeartRateMonitor-master/Libraries/opencv/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/Gautam/.android/build-cache/75b191e887336e617a094152bb1a1c98226638df/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/Gautam/.android/build-cache/81e6fcf670d07d003b77ac9b020743be154e7e2e/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/Gautam/.android/build-cache/894b6a9b7c5fd43b05c9e76093af9e0dffe45191/output/AndroidManifest.xml:18:5-42
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/Gautam/.android/build-cache/b54bce6658bfe83d41cc8f2c0866156372f3382b/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.0.0] /Users/Gautam/.android/build-cache/5fdd9cc86ecc917ea1900a6fc5c3a79bba5b65d3/output/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml
-android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:2:1-28:12 reason: com.androidplot has a targetSdkVersion < 4
-android:uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:2:1-28:12 reason: com.androidplot has a targetSdkVersion < 4
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/Gautam/Downloads/HelloVision2/app/src/main/AndroidManifest.xml:2:1-28:12 reason: com.androidplot requested WRITE_EXTERNAL_STORAGE
+		INJECTED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:2:1-28:12 reason: com.androidplot has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:2:1-28:12 reason: com.androidplot has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:2:1-28:12 reason: com.androidplot requested WRITE_EXTERNAL_STORAGE

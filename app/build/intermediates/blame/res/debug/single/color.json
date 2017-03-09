@@ -1,54 +1,54 @@
 [
     {
-        "merged": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/color/abc_secondary_text_material_dark.xml"
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
-        "source": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/color/common_plus_signin_btn_text_dark.xml"
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/color/abc_primary_text_material_dark.xml"
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/Gautam/.android/build-cache/81e6fcf670d07d003b77ac9b020743be154e7e2e/output/res/color/common_plus_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/color/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/color/abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/color/common_google_signin_btn_text_dark.xml"
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/color/abc_primary_text_material_light.xml"
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/color/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_light.xml",
-        "source": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/color/common_plus_signin_btn_text_light.xml"
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/color/common_google_signin_btn_text_light.xml"
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/Gautam/.android/build-cache/81e6fcf670d07d003b77ac9b020743be154e7e2e/output/res/color/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/res/merged/debug/color/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/color/abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/color/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/Gautam/.android/build-cache/81e6fcf670d07d003b77ac9b020743be154e7e2e/output/res/color/common_plus_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/Gautam/.android/build-cache/81e6fcf670d07d003b77ac9b020743be154e7e2e/output/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/color/abc_secondary_text_material_light.xml"
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/color/abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/color/abc_search_url_text.xml"
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/color/abc_primary_text_disable_only_material_light.xml"
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/color/abc_search_url_text.xml"
     }
 ]

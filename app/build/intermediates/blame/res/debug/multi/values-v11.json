@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+        "outputFile": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 469
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -33,7 +33,7 @@
                     "endOffset": 894
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -54,7 +54,7 @@
                     "endOffset": 1322
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -75,7 +75,7 @@
                     "endOffset": 1748
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -96,7 +96,7 @@
                     "endOffset": 2177
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -117,7 +117,7 @@
                     "endOffset": 2602
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -138,7 +138,7 @@
                     "endOffset": 3023
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -159,7 +159,7 @@
                     "endOffset": 3458
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -180,7 +180,7 @@
                     "endOffset": 3891
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 4338
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 4,
@@ -221,7 +221,7 @@
                     "endOffset": 4416
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 66,
                         "startColumn": 4,
@@ -240,7 +240,7 @@
                     "endOffset": 4508
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 67,
                         "startColumn": 4,
@@ -259,7 +259,7 @@
                     "endOffset": 4598
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 68,
                         "startColumn": 4,
@@ -279,7 +279,7 @@
                     "endOffset": 11892
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 69,
                         "startColumn": 4,
@@ -300,7 +300,7 @@
                     "endOffset": 11999
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 182,
                         "startColumn": 4,
@@ -321,7 +321,7 @@
                     "endOffset": 12128
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 184,
                         "startColumn": 4,
@@ -342,7 +342,7 @@
                     "endOffset": 12492
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 186,
                         "startColumn": 4,
@@ -363,7 +363,7 @@
                     "endOffset": 16230
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 193,
                         "startColumn": 4,
@@ -384,7 +384,7 @@
                     "endOffset": 19982
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 243,
                         "startColumn": 4,
@@ -405,7 +405,7 @@
                     "endOffset": 23859
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 293,
                         "startColumn": 4,
@@ -426,7 +426,7 @@
                     "endOffset": 27750
                 },
                 "from": {
-                    "file": "/Users/Gautam/Downloads/HelloVision2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v11/values.xml",
+                    "file": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/values-v11/values.xml",
                     "position": {
                         "startLine": 344,
                         "startColumn": 4,

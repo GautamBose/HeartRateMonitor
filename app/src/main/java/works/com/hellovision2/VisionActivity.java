@@ -5,6 +5,7 @@ package works.com.hellovision2;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.util.FloatMath;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -29,7 +30,7 @@ import org.opencv.core.Mat;
 import org.opencv.core.Scalar;
 import org.opencv.imgproc.Imgproc;
 import java.util.concurrent.TimeUnit;
-
+import org.jtransforms.fft.DoubleFFT_1D;
 
 
 
@@ -60,13 +61,11 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
     float lastTouchY = 0;
     int cannyThreshold = 50;
     long startTime = 0;
-
-//    private final Handler mHandler = new Handler();
-    private Runnable mTimer1;
-    private Runnable mTimer2;
+    public boolean isFlashOn = false;
     private LineGraphSeries<DataPoint> mSeries1;
+    public float bpmAverage;
+    public ArrayList<Double> bpmAverageList = new ArrayList<Double>();
 
-    private double graph2LastXValue = 5d;
 
     ArrayList<Float> greenValues;
     int bufferCounter = 0;
@@ -76,8 +75,7 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
     Float ave = new Float(0);
     ArrayList<Double> bufferValues = new ArrayList<>();
     private LineGraphSeries<DataPoint> m2series;
-    public int lastX = 0;
-    boolean isCapturing = false;
+    private int lastX = 0;
 
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         @Override
@@ -131,9 +129,6 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
         graph.getViewport().setMinX(0);
         graph.getViewport().setMaxX(40);
 
-        startTime = System.nanoTime();
-
-
     }
 
     @Override
@@ -167,10 +162,12 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
 
         if (item.toString() == "Flash On") {
             mOpenCvCameraView.setFlashOn();
-            isCapturing = true;
+
+            isFlashOn = true;
         } else if (item.toString() == "Flash Off") {
             mOpenCvCameraView.setFlashOff();
-            isCapturing = false;
+            bpmAverageList.clear();
+            isFlashOn = false;
         }
         return true;
     }
@@ -183,7 +180,7 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
     public void onCameraViewStopped() {
     }
 
-    public float calculateMean(ArrayList<Float> values) {
+    public float calculateMean(ArrayList<Double> values) {
         float mean = (float) 0.0;
         for (int i = 0; i < values.size(); i++) {
             Log.d(TAG, values.get(i) + "");
@@ -235,8 +232,8 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
         ArrayList<Double> filteredArray = new ArrayList<>();
 
         for (int index = 0; index < deArray.size(); index++) {
-            if (index > 10) {
-                ArrayList<Double> subListed = new ArrayList<Double>(deArray.subList(index - 10, index));
+            if (index > 20) {
+                ArrayList<Double> subListed = new ArrayList<Double>(deArray.subList(index - 20, index));
                 Double medianValue = findMedian(subListed);
                 filteredArray.add(medianValue);
 
@@ -263,7 +260,7 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
                 }
             }
         }
-        return beats * 2;
+        return beats;
 
     }
 
@@ -279,56 +276,60 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
         Scalar HSVMeans = Core.mean(currentFrame);
 
         Double valueMean = HSVMeans.val[2];
-        bufferValues.add(valueMean);
-        mSeries1.appendData(new DataPoint(lastX, valueMean), true, 100);
-        lastX++;
 
-        if(isCapturing == true){
+        if (isFlashOn == true) {
+            bufferValues.add(valueMean);
+            mSeries1.appendData(new DataPoint(lastX++, valueMean), true, 100);
 
 //        String valueMeanString = Double.toString(valueMean);
-        if (bufferValues.size() == 100) {
-            int currentBeats = getBeats(bufferValues);
+            if (bufferValues.size() % 100 == 0) {
+                int currentBeats = getBeats(bufferValues);
 
-            if (startTime != 0) {
-                long timeDifference = System.nanoTime() - startTime;
+                if (startTime != 0) {
+                    long timeDifference = System.nanoTime() - startTime;
 
-                double seconds = (double) timeDifference / 1000000000.0;
-                double minutes = (double) seconds / 60.0;
+                    double seconds = (double) timeDifference / 1000000000.0;
+                    double minutes = (double) seconds / 60.0;
 
-                double bpm = currentBeats / minutes;
+                    double bpm = currentBeats / minutes;
 
-                String timeElapsed = Double.toString(seconds);
-//
-                String beatsString = Integer.toString(currentBeats);
+                    bpmAverageList.add(bpm);
+                    float currBPM = calculateMean(bpmAverageList);
+
+                    if(bpmAverageList.size() > 10){
+                        bpmAverageList.remove(0);
+                    }
+
+//                String timeElapsed = Double.toString(seconds);
+
+//                String beatsString = Integer.toString(currentBeats);
 //            String bufferValString = android.text.TextUtils.join(", ", bufferValues);
-                String bufferValSize = Integer.toString(bufferValues.size());
-                Log.d("wewef", bufferValSize);
+//            String bufferValSize = Integer.toString(bufferValues.size());
+//            Log.d("wewef", bufferValSize);
 //            Log.d("wewef", bufferValString);
-                Log.d("wewef", beatsString);
-                Log.d("wewef", timeElapsed);
-                TextView wefView = (TextView) findViewById(R.id.bpm);
-                String bpmString = Double.toString(bpm);
-                setText(wefView, bpmString);
-                startTime = System.nanoTime();
+//                Log.d("wewef", beatsString);
+//                Log.d("wewef", timeElapsed);
+                    TextView wefView = (TextView) findViewById(R.id.bpm);
+                    String bpmString = Float.toString(currBPM);
+                    setText(wefView, bpmString);
 
-            }
-        }
+                }
 
-            if (bufferValues.size() > 100) {
-                Log.d("test", "wef");
+//            for(int remover = 0; remover < 5; remover++){
+//                bufferValues.remove(remover);
+//            }
                 ArrayList<Double> tempBuffer = new ArrayList<Double>();
-                for(int iterator = 50; iterator < bufferValues.size(); iterator++){
+                for (int iterator = 50; iterator < bufferValues.size(); iterator++) {
                     tempBuffer.add(bufferValues.get(iterator));
 
 
                 }
                 bufferValues = tempBuffer;
+
+                startTime = System.nanoTime();
+
+
             }
-
-//            bufferValues.clear();
-//            startTime = System.nanoTime();
-
-
         }
 
 
