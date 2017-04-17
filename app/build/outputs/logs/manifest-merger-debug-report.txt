@@ -15,11 +15,11 @@ ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidM
 		INJECTED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml
 application
 ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:5:5-23:19
-MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/Gautam/.android/build-cache/75b191e887336e617a094152bb1a1c98226638df/output/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/Gautam/.android/build-cache/894b6a9b7c5fd43b05c9e76093af9e0dffe45191/output/AndroidManifest.xml:20:5-24:19
 MERGED from [com.jjoe64:graphview:4.2.1] /Users/Gautam/.android/build-cache/b54bce6658bfe83d41cc8f2c0866156372f3382b/output/AndroidManifest.xml:11:5-12:19
-MERGED from [com.android.support:support-v4:23.0.0] /Users/Gautam/.android/build-cache/5fdd9cc86ecc917ea1900a6fc5c3a79bba5b65d3/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.0] /Users/Gautam/.android/build-cache/ca4cc2ad0eeda1e349566f55d90c27628719575f/output/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:8:9-41
 	android:allowBackup
@@ -65,13 +65,13 @@ ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidM
 		ADDED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml:25:22-66
 uses-sdk
 INJECTED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.0.0] /Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/AndroidManifest.xml:20:5-43
 MERGED from [HeartRateMonitor-master.libraries:opencv:unspecified] /Users/Gautam/Downloads/HeartRateMonitor-master/Libraries/opencv/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/Gautam/.android/build-cache/75b191e887336e617a094152bb1a1c98226638df/output/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/Gautam/.android/build-cache/81e6fcf670d07d003b77ac9b020743be154e7e2e/output/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/Gautam/.android/build-cache/894b6a9b7c5fd43b05c9e76093af9e0dffe45191/output/AndroidManifest.xml:18:5-42
 MERGED from [com.jjoe64:graphview:4.2.1] /Users/Gautam/.android/build-cache/b54bce6658bfe83d41cc8f2c0866156372f3382b/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:23.0.0] /Users/Gautam/.android/build-cache/5fdd9cc86ecc917ea1900a6fc5c3a79bba5b65d3/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.0] /Users/Gautam/.android/build-cache/ca4cc2ad0eeda1e349566f55d90c27628719575f/output/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Gautam/Downloads/HeartRateMonitor-master/app/src/main/AndroidManifest.xml

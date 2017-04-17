@@ -8,12 +8,12 @@
         "source": "/Users/Gautam/.android/build-cache/81e6fcf670d07d003b77ac9b020743be154e7e2e/output/res/drawable-hdpi/common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "/Users/Gautam/.android/build-cache/81e6fcf670d07d003b77ac9b020743be154e7e2e/output/res/drawable-hdpi/common_plus_signin_btn_text_dark_pressed.9.png"
-    },
-    {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_text_dark_disabled.9.png",
         "source": "/Users/Gautam/.android/build-cache/81e6fcf670d07d003b77ac9b020743be154e7e2e/output/res/drawable-hdpi/common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable-hdpi/common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "/Users/Gautam/.android/build-cache/81e6fcf670d07d003b77ac9b020743be154e7e2e/output/res/drawable-hdpi/common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_text_light_normal.9.png",

@@ -5,43 +5,43 @@
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_edit_text_material.xml"
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_edit_text_material.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
         "source": "/Users/Gautam/.android/build-cache/81e6fcf670d07d003b77ac9b020743be154e7e2e/output/res/drawable/common_plus_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_cab_background_internal_bg.xml"
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_btn_check_material.xml"
     },
     {
-        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_btn_check_material.xml"
+        "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_btn_radio_material.xml"
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_item_background_holo_dark.xml"
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_spinner_textfield_background_material.xml"
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_switch_thumb_material.xml"
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_switch_thumb_material.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
@@ -49,19 +49,19 @@
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_list_selector_holo_dark.xml"
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_item_background_holo_light.xml"
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_textfield_search_material.xml"
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
@@ -69,7 +69,7 @@
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_ratingbar_full_material.xml"
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_ratingbar_full_material.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
@@ -77,7 +77,7 @@
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_cab_background_top_material.xml"
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
@@ -89,11 +89,11 @@
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_tab_indicator_material.xml"
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/Gautam/.android/build-cache/b16249730183358a4fcacced9010837be10f75b4/output/res/drawable/abc_list_selector_holo_light.xml"
+        "source": "/Users/Gautam/.android/build-cache/25d05f422e5ad69302e151d02d679988e092830b/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
         "merged": "/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",

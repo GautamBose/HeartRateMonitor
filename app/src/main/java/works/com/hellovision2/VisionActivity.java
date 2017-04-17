@@ -5,7 +5,6 @@ package works.com.hellovision2;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
-import android.util.FloatMath;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -30,7 +29,7 @@ import org.opencv.core.Mat;
 import org.opencv.core.Scalar;
 import org.opencv.imgproc.Imgproc;
 import java.util.concurrent.TimeUnit;
-import org.jtransforms.fft.DoubleFFT_1D;
+
 
 
 
@@ -61,11 +60,13 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
     float lastTouchY = 0;
     int cannyThreshold = 50;
     long startTime = 0;
-    public boolean isFlashOn = false;
-    private LineGraphSeries<DataPoint> mSeries1;
-    public float bpmAverage;
-    public ArrayList<Double> bpmAverageList = new ArrayList<Double>();
 
+    //    private final Handler mHandler = new Handler();
+    private Runnable mTimer1;
+    private Runnable mTimer2;
+    private LineGraphSeries<DataPoint> mSeries1;
+
+    private double graph2LastXValue = 5d;
 
     ArrayList<Float> greenValues;
     int bufferCounter = 0;
@@ -75,7 +76,8 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
     Float ave = new Float(0);
     ArrayList<Double> bufferValues = new ArrayList<>();
     private LineGraphSeries<DataPoint> m2series;
-    private int lastX = 0;
+    public int lastX = 0;
+    boolean isCapturing = false;
 
     private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
         @Override
@@ -129,6 +131,9 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
         graph.getViewport().setMinX(0);
         graph.getViewport().setMaxX(40);
 
+        startTime = System.nanoTime();
+
+
     }
 
     @Override
@@ -162,12 +167,10 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
 
         if (item.toString() == "Flash On") {
             mOpenCvCameraView.setFlashOn();
-
-            isFlashOn = true;
+            isCapturing = true;
         } else if (item.toString() == "Flash Off") {
             mOpenCvCameraView.setFlashOff();
-            bpmAverageList.clear();
-            isFlashOn = false;
+            isCapturing = false;
         }
         return true;
     }
@@ -180,7 +183,7 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
     public void onCameraViewStopped() {
     }
 
-    public float calculateMean(ArrayList<Double> values) {
+    public float calculateMean(ArrayList<Float> values) {
         float mean = (float) 0.0;
         for (int i = 0; i < values.size(); i++) {
             Log.d(TAG, values.get(i) + "");
@@ -232,8 +235,8 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
         ArrayList<Double> filteredArray = new ArrayList<>();
 
         for (int index = 0; index < deArray.size(); index++) {
-            if (index > 20) {
-                ArrayList<Double> subListed = new ArrayList<Double>(deArray.subList(index - 20, index));
+            if (index > 10) {
+                ArrayList<Double> subListed = new ArrayList<Double>(deArray.subList(index - 10, index));
                 Double medianValue = findMedian(subListed);
                 filteredArray.add(medianValue);
 
@@ -260,7 +263,7 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
                 }
             }
         }
-        return beats;
+        return beats * 2;
 
     }
 
@@ -276,28 +279,63 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
         Scalar HSVMeans = Core.mean(currentFrame);
 
         Double valueMean = HSVMeans.val[2];
+        bufferValues.add(valueMean);
+//        mSeries1.appendData(new DataPoint(lastX, valueMean), true, 100);
+//        lastX++;
 
-        if (isFlashOn == true) {
-            bufferValues.add(valueMean);
-            if (bufferValues.size() == 300) {
-                DoubleFFT_1D fftDoer = new DoubleFFT_1D(bufferValues.size());
-                double[] fftValues = new double[bufferValues.size() * 2];
-                Double [] bufferArray = new Double[bufferValues.size()];
-                bufferValues.toArray(bufferArray);
-                System.arraycopy(bufferArray, 0, fftValues, 0, bufferArray.length);
-                fftDoer.realForwardFull(fftValues);
-                bufferValues.clear();
+        if(isCapturing == true){
+
+//        String valueMeanString = Double.toString(valueMean);
+            if (bufferValues.size() == 100) {
+                int currentBeats = getBeats(bufferValues);
+                if (currentBeats > 4 ) {
+                    currentBeats = 3;
+                }
+                if (currentBeats == 0) {
+                    currentBeats = 3;
+                }
 
 
+                if (startTime != 0) {
+                    long timeDifference = System.nanoTime() - startTime;
+
+                    double seconds = (double) timeDifference / 1000000000.0;
+                    double minutes = (double) seconds / 60.0;
+
+                    double bpm = currentBeats / minutes;
+
+
+                    String timeElapsed = Double.toString(seconds);
+//
+                    String beatsString = Integer.toString(currentBeats);
+//            String bufferValString = android.text.TextUtils.join(", ", bufferValues);
+                    String bufferValSize = Integer.toString(bufferValues.size());
+
+                    TextView wefView = (TextView) findViewById(R.id.bpm);
+                    String bpmString = Double.toString(bpm / 1.5);
+
+
+                    setText(wefView, bpmString);
+                    startTime = System.nanoTime();
+
+                }
             }
 
-//            mSeries1.appendData(new DataPoint(lastX++, valueMean), false, 30);
+            if (bufferValues.size() > 100) {
+                ArrayList<Double> tempBuffer = new ArrayList();
+                for(int iterator = 50; iterator < bufferValues.size(); iterator++){
+                    tempBuffer.add(bufferValues.get(iterator));
 
 
-
-
+                }
+                bufferValues = tempBuffer;
             }
 
+//            bufferValues.clear();
+//            startTime = System.nanoTime();
+
+
+        }
 
 
         return currentFrame;

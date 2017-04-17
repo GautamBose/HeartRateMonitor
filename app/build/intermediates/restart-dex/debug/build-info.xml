@@ -2,86 +2,75 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="23"
-    build-mode="COLD"
+    build-mode="HOT_WARM"
     density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1489092832083"
+    timestamp="1490908137230"
     token="-1435474092985884297"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="199" />
+        duration="662" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="1652" />
     <task
         name="instant-run-transform"
-        duration="18" />
+        duration="81" />
     <task
         name="verifier"
-        duration="1" />
+        duration="2" />
 
     <artifact
-        location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/outputs/apk/app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
-        timestamp="1489091459488"
+        timestamp="1490906400375"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
         <artifact
             location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1489092751582"
-        verifier="COLD_SWAP_REQUESTED" >
+            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
         <artifact
-            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489092832083"
+        timestamp="1490908073050"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -89,6 +78,14 @@
         <artifact
             location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1490908137230"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/Gautam/Downloads/HeartRateMonitor-master/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
