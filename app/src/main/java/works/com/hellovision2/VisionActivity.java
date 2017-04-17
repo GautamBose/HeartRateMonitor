@@ -288,12 +288,6 @@ public class VisionActivity extends ActionBarActivity implements CameraBridgeVie
 //        String valueMeanString = Double.toString(valueMean);
             if (bufferValues.size() == 100) {
                 int currentBeats = getBeats(bufferValues);
-                if (currentBeats > 4 ) {
-                    currentBeats = 3;
-                }
-                if (currentBeats == 0) {
-                    currentBeats = 3;
-                }
 
 
                 if (startTime != 0) {
